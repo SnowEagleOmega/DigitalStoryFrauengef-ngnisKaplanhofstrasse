@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Startseite</title>
+    <meta name="author" content="Samuel Weißmayr & Marlene Landl">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="source/index.css">
+    <script src="source/script.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   
+</head>
+
+<body class="containerbody">
+    <!--<audio autoplay>
+        <source src="sound/music.mp3" type="audio/ogg">
+    </audio>-->
+    <audio id='turn' src="sound/turn.wav"></audio>
+    <audio id='slider' src="sound/slide.wav"></audio>
+
+    <h1 class="heading" align="center">Das Frauengefängnis Kaplanhofstrasse</h1>
+    <!-- Bootstrap Klasse, zentriert Seiteninhalt-->
+    <!-- Navbar -->
+
+
+    <nav class=" containernav navbar navbar-expand-sm  navbar-dark justify-content-center">
+        <!-- Bootstrap Navigationsleiste mit verweis auf Punkte der Website-->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Einleitung</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="history.html">Geschichte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="location.html">Standort</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="impressum.html">Impressum</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="texts container container1">
+
+
+        <img src="img/tafel.jpg" class="img-fluid" alt="Frauengefängisgedenktafel" align="right">
+
+        <hr>
+        <div>
+            <p>
+                <cite>"Die Geschichte lehrt dauernd, aber sie findet keine Schüler"</cite><br><br>
+                -Ingeborg Bachmann
+            </p>
+        </div>
+        <hr>
+
+        <br>
+        <h2 class="heading" id="intro" align="left">Eine fast vergessene Geschichte</h2>
+        <hr>
+        <p>
+            Es gibt viele Ereignisse in unserer Geschichte, jedoch sorgen viele Ereignisse auch für viel Vergessenes. <br>
+            Eine dieser fast vergessenen Geschichten ist die der Inhaftierten im Frauengefängnis Kaplanhof.
+        </p>
+
+        <p>
+            Viele Frauen haben während ihrer Haft im Frauengefängins ihr Leben geben müssen, weil es ihnen aufgrund des "Fehlerverhaltens" einiger Weniger nicht mehr erlaubt war die Luftschutzbunker zu besuchen.<br>
+
+            In der Geschichte handelt es sich oft wie hier um die "Fehler" und Handlungen einzelner Personen, welche das Leben von Unschuldigen fordern, jedoch sollte man sich bemühen zumindest dieser Opfer zu gedenken.<br>
+
+            Doch die Erinnerung an die Geschehnisse im Frauengefängnis Kaplanhofstrasse drohen immer mehr zu verblassen. Einzig und alleine eine kleine Tafel angebracht an der Landespolizeidirektion erinnert heute an die Leben, welche damals während eines Bombardements ausgelöscht wurden<br>
+
+            Diese Digital-Story soll die Erinnerung an die Opfer erhalten und das weitere Verblassen dieses geschichtlichen Ereignisses verhindern.<br>
+        </p>
+        <div class="header container-fluid justify-content-center text-white">
+        </div>
+        <div id="slide" class="carousel slide justify-content-center text-white" data-interval="false" data-ride="carousel">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active align-center">
+                    <img src="img/family.jpg" alt="Sophie Emmer und ihre Kinder" width=100%, height=auto>
+                    <p class="texts centered"> Sophie Emmer und Ihre Söhne nach der Rückkehr aus der Haft</p>
+                </div><br>
+                <div class="carousel-item">
+                    <img src="img/monument.jpg" alt="Ein Grabmal für Gisela Tschofening-Taurer und Theresia Höllermann " width=100% height=50%>
+                    <p class="texts centered"> Grabkreuz für Gisela Tschofening-Taurer und Theresia Höllermann <br> in der Nähe des damaligen Arbeitserziehunglagers </p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/portrait.jpg" alt="Frieda Buchacher und ihr Sohn" width=100%, height=auto>
+                    <p class="texts centered">Friede Buchacher mit ihrem Sohn im Jahr 1942</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/tafel.jpg" alt="Gedenktafel an die Opfer des Frauengefängnisses" width=100%, height=auto>
+                    <p class="texts centered">Die heutige Gedenktafel für die Opfer des Frauengefängnisses an der Landespolizeidirektion Linz</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/unteroffizier.jpg" alt="Ein damaliger Polizierunteroffizier auf seinem Motorrad" width=100%, height=auto>
+                    <p class="texts centered">Ein damaliger Polizierunteroffizier auf seinem Motorrad vor einer Barracke</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/baracke.jpg" alt="Ein Bild der damaligen Polizeidirektion" width=100%, height=auto>
+                    <p class="texts centered">Die damalige Polizeidirektion in der Kaplanhofstrasse</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/baracke3.jpg" alt="Ein Bild der damaligen Anlange der Polizeidirektion von Außen" width=100%, height=auto>
+                    <p class="texts centered">Eine Außenansicht der Anlage der damaligen Polizeidirektion in der Kaplanhofstrasse</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/company.jpg" alt="Ein Bild der damaligen Polizeikompanie" width=100%, height=auto>
+                    <p class="texts centered">Die damalige Polizeikompanie abgelichtet in Reih und Glied</p>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#slide" data-slide="prev">
+                <span class="carousel-control-prev-icon" onclick="PlaySound('slider')"></span>
+            </a>
+            <a class="carousel-control-next" href="#slide" data-slide="next">
+                <span class="carousel-control-next-icon" onclick="PlaySound('slider')"></span>
+            </a>
+
+        </div>
+        <div class="centered">
+            <a class="texts centered" onmouseover="PlaySound('turn')" onmouseout="StopSound('turn')" href="history.html">Weiter</a>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

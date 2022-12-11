@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Geschichte</title>
+    <meta name="author" content="Samuel Weißmayr & Marlene Landl">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="source/history.css">
+    <script src="source/script.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body class="containerbody">
+    <!--<audio autoplay>
+        <source src="sound/music.mp3" type="audio/ogg">
+    </audio>-->
+    <audio id='turn' src="sound/turn.wav"></audio>
+
+    <h1 class="heading" align="center">Das Frauengefängnis Kaplanhofstrasse</h1>
+    <!-- Bootstrap Klasse, zentriert Seiteninhalt-->
+    <!-- Navbar -->
+
+
+    <nav class=" containernav navbar navbar-expand-sm  navbar-dark justify-content-center">
+        <!-- Bootstrap Navigationsleiste mit verweis auf Punkte der Website-->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Einleitung</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="history.html">Geschichte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="location.html">Standort</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="impressum.html">Impressum</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="texts container container1">
+
+
+        <div class="cont texts">
+            <h2 class="heading" id="history">Geschichte</h2>
+            <hr>
+            <div>
+                <p>
+                    <cite>"Geschichte ist immer der überlieferte Bericht von der Macht der Minderheiten."</cite><br><br>
+                    -Ralph Waldo Emerson
+                </p>
+            </div><hr><br>
+            <h3 class="heading"> Bericht einer Zeitzeugin</h3>
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe src="https://player.vimeo.com/video/302051351" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <p><a href="https://vimeo.com/302051351"></a><a href="https://vimeo.com/phooe"></a><a href="https://vimeo.com"></a></p>
+            </div><br>
+            <h3 class="heading" id="history">Die Zerstörung der Spuren des Gefängnisses Kaplanhofstrasse</h3><br>
+
+            <p>
+                Zu Beginn muss einmal erwähnt werden, dass genauere Aussagen über den Ort nicht gänzlich möglich sind. Der Grund dafür ist ein Bombardement auf das Frauengefängnis Kaplanhofstraße.<br>
+                Im Zuge dieses Bombentreffers wurden am 31. März 1945 jegliche Akten und das Gebäude durch einen daraus resultierenden Brand ausgelöscht.<br>
+                Was aber trotzdem bekannt war ist, dass Adolf Hitler einen engen Bezug zu der Stadt Linz hatte. Er nannte nicht nur Linz seine Geburtsstadt, sondern wollte auch in Linz Kunst studieren, wurde jedoch nicht aufgenommen, weshalb er nach Wien ging.<br>
+                Nach dem Anschluss Österreichs an Deutschland, marschierte Adolf Hitler im März 1938 in Braunau ein. Am Abend desselben Tages hielt er eine Ansprache am Hauptplatz in Linz.<br>
+                Adolf Hitler ernannte insgesamt fünf Städte zu Führerstädten. Darunter befand sich auch Linz, was die Verbundenheit zu dieser Stadt deutlich macht.<br>
+
+                Auch Hermann Göring verspürte eine enge Verbundenheit zu Linz. Seine Schwester war mit einem Rechtsanwalt aus Linz verheiratet. Die Hermann-Göring-Werke wurden errichtet.<br>
+                Schlussendlich wurden im Zuge Neustrukturierung des gesamten Stadtteils die seit 1927 als Ausbildungsstätten für Polizeischüler genutzten Baracken neu bebaut.<br>
+                Experten zufolge wurden vermutlich ab dem 31. Jänner 1944 die Baracken in der Kaplanhofstraße als provisorische Frauengefängnisse genützt.<br>
+
+                Die Regime-GegnerInnen wurden nach deren Verhaftung am örtlichen Gendarmarie-Posten festgehalten. Der Großteil der männlichen Gefangenen wurden im Polizeigefängnis in der Mozartstraße untergebracht. Die Mehrheit der Frauen wurde im Landgericht Linz, im Bezirksgefangenhaus Urfahr oder im Polizeigefängnis Kaplanhofstrasse festgehalten.
+
+            </p>
+        </div>
+
+        <div class="centered">
+
+            <a class="texts centered" onmouseover="PlaySound('turn')" onmouseout="StopSound('turn')" href="index.html">Zurück</a>
+            |
+            <a class="texts centered" onmouseover="PlaySound('turn')" onmouseout="StopSound('turn')" href="location.html">Weiter</a>
+
+        </div>
+    </div>
+</body>
+
+
+</html>

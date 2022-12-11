@@ -1,0 +1,63 @@
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Syne Mono', monospace;*/
+.containerbody {
+    /*background-color: rgba(219, 225, 214, 1);*/
+    background-image: url('../img/wall.jpg');
+    /*Full height*/
+    height:100%;
+    /*Center Image and scale evenely*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containernav {
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom: 25px;
+    /*background-image: url('../img/wall.jpg');*/
+    /*Full height*/
+    height: 100%;
+    /*Center Image and scale evenely*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-link {
+    color: black !important;
+    font-size: 1.8em;
+    font-family:"Syne Mono"
+}
+
+container1 { 
+   
+    /*background-image: url('../img/wall.jpg');*/
+    /*Full height*/
+    height: 100%;
+    /*Center Image and scale evenely*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.textcolor1 {
+    color: black;
+}
+.cont {
+    text-align: left;
+}
+.heading {
+ font-family:"Oswald";
+}
+
+.texts {
+    font-family: "Syne Mono";
+    color: black;
+    font-size:20px;
+}
+
+.centered {
+    text-align:center;
+}
